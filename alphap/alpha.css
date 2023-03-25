@@ -1,0 +1,285 @@
+body
+
+{
+background-color: antiquewhite;
+
+}
+.container3
+{
+    
+    animation-name: sub;
+    animation-duration: 5s;
+    
+    
+    background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 30px;
+margin: 30px;
+text-align: center;
+height:5cm;
+width: 20cm;
+    border-radius: 10px;
+    animation-iteration-count: infinite;
+    position: relative;
+    }
+    @keyframes sub
+    {
+        0%{background-color:navy; left:0px;top:0px;}
+        10%{background-color:green; left: 0px; top:200px}
+        
+        20%{background-color:blueviolet; left: 0px;top:0px}
+        
+        40%{background-color:grey; left:0px;top:200px;}
+    
+            70%{background-color:navy; left:0px;top:0px;}
+        
+        
+        
+    
+}
+.container2
+{
+    
+    animation-name: sub2;
+    animation-duration: 5s;
+    
+    float: right;
+    background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 30px;
+margin: 30px;
+text-align: center;
+height:5cm;
+width: 20cm;
+    border-radius: 10px;
+    animation-iteration-count: infinite;
+    position: relative;
+    }
+    @keyframes sub2
+    {
+        
+        0%{background-color:navy; left:0px;top:0px;}
+    10%{background-color:green; left: 0px; top:100px}
+    
+    20%{background-color:blueviolet; left: 200px;top:0px}
+    
+    40%{background-color:grey; left:0px;top:100px;}
+
+        70%{background-color:navy; left:0px;top:0px;}
+    
+    
+    
+    
+    
+    }
+    
+    .container1
+    {
+        
+        animation-name: sub3;
+        animation-duration: 5s;
+        
+        
+        background-color:black;
+    box-shadow: 0 4px 8px 0 green;
+    border-radius: 30px;
+    margin: 30px;
+    text-align: center;
+    height:5cm;
+    width: 20cm;
+        border-radius: 10px;
+        animation-iteration-count: infinite;
+        position: relative;
+        }
+        @keyframes sub3
+        {
+            0%{background-color:navy; left:0px;top:0px;}
+            10%{background-color:green; left: 0px; top:100px}
+            
+            20%{background-color:blueviolet; left: 0px;top:0px}
+            
+            40%{background-color:grey; left:0px;top:100px;}
+        
+                70%{background-color:navy; left:0px;top:0px;}
+            
+            
+            
+        
+    }
+
+
+    
+    
+.head
+    {
+display:flex;
+background-color:brown;
+justify-content: center;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 black;
+height: 40px;
+
+
+
+}
+.head1
+    {
+
+background-color:green;
+justify-content: center;
+border-radius: 5px;
+}
+.head1 :hover
+    {
+background-color: blue;
+}
+
+
+
+.head .hb
+{
+color: beige;
+text-shadow: 2px 2px black;
+
+}
+.nav
+    {
+display:flex;
+background-color:black;
+
+border-radius: 5px;
+margin: 7px;
+justify-content: end;
+height: 40px;
+}
+li a
+{
+color:rgb(53, 41, 41);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 30px;
+list-style-type: none;
+display: block;
+text-decoration: none;
+display: block;
+
+
+}
+li a:hover{
+background-color:gray;
+border-radius: 5px;
+font-size: 20px;
+color: aliceblue;
+
+
+}
+.container1
+    {
+float: left;
+background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 5px;
+margin: 30px;
+text-align: center;
+height:5cm;
+width: 20cm;
+border-radius: 30px;
+
+
+}
+
+
+
+
+}
+@media screen and (min-width: 720px; ) and (max-width:1024px;)
+  {
+    .container1
+    {
+float: left;
+background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 5px;
+margin: 30px;
+font-size: 10px;
+height:5cm;
+width: 5cm;
+border-radius: 30px;
+
+
+}
+
+.container2
+    {
+float: right;
+background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 5px;
+margin: 30px;
+
+height:5cm;
+width: 5cm;
+border-radius: 30px;
+
+}
+.container3
+    {
+float: left;
+background-color:black;
+box-shadow: 0 4px 8px 0 green;
+border-radius: 30px;
+margin: 30px;
+
+height:5cm;
+width: 5cm;
+  }  
+
+   }
+.about
+{
+
+background-color:white;
+box-shadow: 0 4px 10px 0 rgb(0, 0, 0);
+border-radius: 10px;
+margin: 30px;
+text-align: center;
+height:20cm;
+width: 30cm;
+transition:0.3s;
+
+}
+b{
+color: gray;
+
+}
+.conabout
+{
+    color:black;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.quote
+{
+text-align: center;
+color: white;
+font-size: xx-large;
+
+
+}
+cite
+{
+font-size: small;
+
+
+}
+blockquote
+{
+    font-size: 40px;
+}
+.quote:hover 
+{
+border-radius: 5px solid green;
+
+color: gold;
+display: block;
+}
+
